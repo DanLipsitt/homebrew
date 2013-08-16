@@ -3,8 +3,10 @@ require 'formula'
 class QemuLinaro < Formula
   homepage 'https://wiki.linaro.org/WorkingGroups/ToolChain/QEMU'
   head 'git://git.linaro.org/qemu/qemu-linaro.git', :using => :git
-  url 'http://launchpad.net/qemu-linaro/trunk/2013.03/+download/qemu-linaro-1.4.0-2013.03.tar.gz'
-  sha1 'dd9cce8f7993a38eec85c806a2c150374a758dfd'
+  url 'https://launchpad.net/qemu-linaro/trunk/2013.06/+download/qemu-linaro-1.5.0-2013.06.tar.gz'
+  md5 'd34ce93d7c5f6b6c8d2b903fd85378a4'
+  sha1 '00eae09cc4fee0017cd2cc4c53c65e22984203a9'
+  sha256 '17f1a87e90a1dc41873f51b0f787eb3776f16c44c9facbc3ed43cfd7087c6ef7'
 
   depends_on 'pkg-config' => :build
   depends_on :libtool
