@@ -2,8 +2,8 @@ require 'formula'
 
 class Libwpg < Formula
   homepage 'http://libwpg.sourceforge.net/'
-  url 'http://downloads.sourceforge.net/project/libwpg/libwpg/libwpg-0.2.2/libwpg-0.2.2.tar.bz2'
-  sha1 'e9484e795259485ece9a984f60776704d55afeeb'
+  url 'http://downloads.sourceforge.net/project/libwpg/libwpg/libwpg-0.2.1/libwpg-0.2.1.tar.bz2'
+  sha1 'b8d89f4032475018c5f25e1d4419d23b806381d0'
 
   depends_on 'pkg-config' => :build
   depends_on 'libwpd'
