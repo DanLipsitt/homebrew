@@ -2,8 +2,8 @@ require 'formula'
 
 class Oce < Formula
   homepage 'https://github.com/tpaviot/oce'
-  url 'https://github.com/tpaviot/oce/archive/OCE-0.12.zip'
-  sha1 'f26603fd1e63bca25032893f1ea60f0a891fd575'
+  url 'https://github.com/tpaviot/oce/archive/OCE-0.13.zip'
+  sha1 'e98356628903c08a0103be86a2116bb8029fb51a'
   head 'https://github.com/tpaviot/oce.git'
 
   depends_on 'cmake' => :build
