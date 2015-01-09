@@ -10,7 +10,7 @@ class DockerMachine < Formula
   head "https://github.com/docker/machine.git"
 
   depends_on "go" => :build
-  depends_on "mercurial" => :build
+  depends_on :hg => :build
 
   def install
     if build.head?
