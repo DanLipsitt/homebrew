@@ -24,6 +24,6 @@ class DockerMachine < Formula
   end
 
   test do
-    system "#{bin}/#{name}", "--version"
+    system "#{bin}/#{name}", "ls"
   end
 end
